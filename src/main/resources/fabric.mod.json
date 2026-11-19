@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "autosell",
+  "version": "${version}",
+  "name": "AutoSell",
+  "description": "Client-side configurable AutoSell helper with item whitelist GUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.autosell.AutoSellClient"] },
+  "depends": { "fabricloader": ">=0.20.1", "minecraft": "1.21.11", "fabric-api": "*", "java": ">=21" }
+}
